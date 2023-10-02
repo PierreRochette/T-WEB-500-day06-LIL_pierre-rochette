@@ -1,4 +1,4 @@
-export function range(start, end, step) {
+function range(start, end, step) {
 
     if (step === undefined) {
         step = 1; 
@@ -19,3 +19,4 @@ export function range(start, end, step) {
         return arr; 
     }
 
+module.exports = {range}
