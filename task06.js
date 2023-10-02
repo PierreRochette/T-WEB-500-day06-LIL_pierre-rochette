@@ -1,7 +1,7 @@
 export function objectsDeeplyEqual(cmp1, cmp2) {
 
     if (cmp1 == null || cmp2 == null) {
-        return true; 
+        return false; 
     }
 
     if (cmp1 == cmp2) {
